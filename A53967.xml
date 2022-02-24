@@ -1,0 +1,372 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at St. Mary Le Bow, Novemb. 27, 1682 being the day of the Wiltshire-feast / by Edward Pelling ...</title>
+            <author>Pelling, Edward, d. 1718.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1683</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 46 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53967</idno>
+            <idno type="STC">Wing P1093</idno>
+            <idno type="STC">ESTC R23222</idno>
+            <idno type="EEBO-CITATION">12755784</idno>
+            <idno type="OCLC">ocm 12755784</idno>
+            <idno type="VID">93423</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53967)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 93423)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 727:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at St. Mary Le Bow, Novemb. 27, 1682 being the day of the Wiltshire-feast / by Edward Pelling ...</title>
+                  <author>Pelling, Edward, d. 1718.</author>
+               </titleStmt>
+               <extent>[4], 32 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Crump ..., and William Abington ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1683.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Includes bibliographical references.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Proverbs XXIV, 21 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-11</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2010-11</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:93423:1"/>
+            <pb facs="tcp:93423:1" rendition="simple:additions"/>
+            <p>A SERMON PREACHED AT <hi>St. Mary Le Bow, <hi>Novemb.</hi>
+               </hi> 27. 1682. Being the Day of the Wiltſhire-Feaſt.</p>
+            <p>By <hi>EDWARD PELLING,</hi> Rector of St. <hi>Martins Ludgate,</hi> and Chaplain to his Grace the Duke of <hi>Somerſet.</hi>
+            </p>
+            <q>We have no King, becauſe we feared not the Lord,</q>
+            <bibl>Hoſ. 10. 3.</bibl>
+            <q>For the Tranſgreſſion of a Land, many are the Princes thereof,</q>
+            <bibl>Prov. 28. 2.</bibl>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </q>
+            <q>
+               <hi>Conſpiracies, Combinations, and Aſſociations, do not at all conſiſt with Monarchy.</hi> Dio. <bibl>
+                  <hi>Cited by Biſhop</hi> Uſher, Of the Power of the Prince, <hi>pag.</hi> 67.</bibl>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>John Crump;</hi> at the <hi>Three Bibles</hi> in St. <hi>Paul</hi>'s <hi>Church<g ref="char:EOLhyphen"/>yard;</hi> And <hi>William Abington,</hi> at the <hi>Three Silk-worms</hi> in <hi>Lud<g ref="char:EOLhyphen"/>gate-ſtreet.</hi> 1683.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:93423:2"/>
+            <pb facs="tcp:93423:2"/>
+            <head>To my Worthy FRIENDS and COUNTRYMEN,
+<list>
+                  <item>Mr. <hi>John Davies,</hi>
+                  </item>
+                  <item>Mr. <hi>Cornelius Dyer,</hi>
+                  </item>
+                  <item>Mr. <hi>William Cleeve,</hi>
+                  </item>
+                  <item>Mr. <hi>John Hunt,</hi>
+                  </item>
+                  <item>Mr. <hi>William Davies,</hi>
+                  </item>
+                  <item>Mr. <hi>Edward Odell,</hi>
+                  </item>
+                  <item>Mr. <hi>Thomas Jones,</hi>
+                  </item>
+                  <item>Mr. <hi>Stephen Palmer,</hi>
+                  </item>
+                  <item>Mr. <hi>Anthony White,</hi>
+                  </item>
+                  <item>Mr. <hi>Tho. Fitz-Rudell.</hi>
+                  </item>
+               </list>
+            </head>
+            <head type="sub">Stewards of the late <hi>Wiltſhire</hi>-Feaſt.</head>
+            <opener>
+               <salute>Gentlemen,</salute>
+            </opener>
+            <p>WHEN you Requeſted of me to Preach before you at your Solemn Meeting, I thought my ſelf Obliged to Anſwer your deſires, by that Natural Affection I bear to my Native Coun<g ref="char:EOLhyphen"/>trey, and by thoſe Reſpects I owe to all my Coun<g ref="char:EOLhyphen"/>trey men, and particularly to your ſelves.</p>
+            <p>And having received Payment of that Debt which was due on my part, you will acknowledge, I preſume, that you have contracted a Debt to me, by prevailing with me to Expoſe the Sermon to the view of a Cenſorious World; for a ſtrong
+<pb facs="tcp:93423:3"/>
+Obligation lyeth upon you to Defend that, which now you have made your Own.</p>
+            <p>The Deſign and Scope of this following Diſ<g ref="char:EOLhyphen"/>courſe is, to encourage Men to be Heartily and Firmly Loyal: A Leſſon, which though ſome are pleaſed to Deſpiſe, others to be Incenſed at, and many now a days care not to hear of, yet is ſo ab<g ref="char:EOLhyphen"/>ſolutely Neceſſary to be taught, that the King<g ref="char:EOLhyphen"/>dom cannot proſper, nor the Government ſtand, nor Chriſtianity it ſelf be duly practis'd without it.</p>
+            <p>If this Diſcourſe ſerveth to Contribute any thing hereunto, I have obtained my Ends, and am only to deſire your kind Acceptance thereof from</p>
+            <closer>
+               <signed>Your Faithful Friend and Servant, in Chriſt Jeſus,
+Edw. Pelling.</signed>
+               <dateline>
+                  <date>
+                     <hi>Decemb.</hi> 2d. 1682.</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:93423:3"/>
+            <epigraph>
+               <bibl>PROV. 24. 21.</bibl>
+               <q>—<hi>Meddle not with them that are given to Change.</hi>
+               </q>
+            </epigraph>
+            <p>
+               <hi>MAximus Tyrius</hi> the Platoniſt ſpeaking of Three Sorts of Government,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Monarchy, Ariſtocracy,</hi> and <hi>Demo<g ref="char:EOLhyphen"/>cracy,</hi> (the <hi>Laſt</hi> whereof He calls by way of Reproach, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that is, a Rabble<g ref="char:EOLhyphen"/>regiment; the Baſeſt of all others, being both Sordid in its Conſtitution, and the moſt Arbitrary and Tyrannical in its Ad<g ref="char:EOLhyphen"/>miniſtration: This Philoſopher, I ſay,) though he was ſo Wiſe as to prefer an Ariſtocratical before a Popular Govern<g ref="char:EOLhyphen"/>ment; yet he was ſo Juſt too, as to pre<g ref="char:EOLhyphen"/>fer Regal Government before Both: Hap<g ref="char:EOLhyphen"/>py<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> is that City, ſaith he, which hath a King for its Governour.</p>
+            <p>
+               <pb n="2" facs="tcp:93423:4"/>But the Beſt Conſtituted form in the World cannot be either Effectual to the Ends of Government, or Happy in the Management thereof, unleſs there be ſuch a good poſture of affairs, that as the Su<g ref="char:EOLhyphen"/>preme Authority is Seated in the Head of the Kingdom, ſo due and regular Obe<g ref="char:EOLhyphen"/>dience be paid by the Inferior Mem<g ref="char:EOLhyphen"/>bers. 'Tis Harmony (as the Philoſopher<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Max. Tyr. ibid.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>l<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. ibid.</hi>
+               </note> ſaith) and Order that preſerveth Societies, when all men that are in a Subordinate State, do readily yield to Him who is the Supreme according to God's Law. This was the Wiſdom even of a Pagan.</p>
+            <p>And agreeable hereunto is the Tenor of that Wiſdom which is Revealed from Hea<g ref="char:EOLhyphen"/>ven. For one end of Religion is to be Serviceable even to the Political and Civil intereſts of Mankind; and becauſe there can be no Temporal Felicity without Peace, nor Peace without Loyal and Dutiful Sub<g ref="char:EOLhyphen"/>jection; and becauſe the Contempt of Ma<g ref="char:EOLhyphen"/>jeſty is the Mother of Diſobedience, and Diſobedience is productive of Confuſion, and where Confuſion is <hi>there is every evil Work;</hi> therefore that <hi>Wiſdom which is from
+<pb n="3" facs="tcp:93423:4"/>
+above,</hi> and which is <hi>Pure and Peaceable,</hi> doth here in my Text call upon all ſuch as would be truly Happy, in the firſt place to Fear God, the great Sovereign of the whole World; and in ſubordination to Him, to pay that Filial Reverence and Sub<g ref="char:EOLhyphen"/>jection unto the King, which is his Right and Due, as he is the immediate Deputy, Vicegerent, and Commiſſioner of God himſelf. For if men would be once per<g ref="char:EOLhyphen"/>ſwaded to this, every thing then would be in its proper Chanel, Peace would flouriſh upon Earth, and God would Bleſs us; thoſe Calamities would be removed which are the Natural conſequences of wicked Aſſo<g ref="char:EOLhyphen"/>ciations and Conſpiracies, the Malice of Devils would be Edgleſs, the Deſigns of Evil Men would be Baffled, Quietneſs would be our Portion, the Kingdom would Proſper, and we <hi>ſhould</hi> be where we <hi>would</hi> be, in as Happy a condition as we <hi>can</hi> be in this World. 'Tis for theſe great Purpoſes, that the Spirit of God gives us this Excellent advice, <hi>That we fear the Lord and the King, and meddle not with them that are given to Change.</hi>
+            </p>
+            <p>
+               <pb n="4" facs="tcp:93423:5"/>That I may enter Fairly, and proceed Methodically upon the conſideration of this place of Scripture, there is a Twofold Precept to be obſerved in the whole com<g ref="char:EOLhyphen"/>paſs of it.</p>
+            <p>1. An <hi>Affirmative</hi> Command, in the former part of the Verſe, that we expreſs that Humble and Univerſal Fear which is due to <hi>God</hi>'s Majeſty, and that becoming Reverence which is due to the <hi>King</hi>'s Ma<g ref="char:EOLhyphen"/>jeſty for God's ſake; <hi>My Son, fear thou the Lord and the King.</hi> Now as touching this matter, as I ſhall not wave it altogether, ſo neither ſhall I employ my Meditations upon it at Large; not that I think it either unbecoming my <hi>Place,</hi> or unſuitable to this <hi>Solemnity,</hi> or unſeaſonable for the <hi>Times,</hi> or a Subject that is in any wiſe <hi>Im<g ref="char:EOLhyphen"/>proper</hi> or <hi>
+                  <g ref="char:V">Ʋ</g>nneceſſary,</hi> eſpecially ſince True Loyalty has been ſo lately reproached for a <hi>Crime,</hi> and eſteemed a kind of <hi>Treaſon</hi> againſt the <hi>People</hi> to be Dutiful to the <hi>King;</hi> and to Diſhonour the <hi>Prince</hi> has been thought a branch of that <hi>Liberty, Right</hi> and <hi>Privilege</hi> which belongeth unto the <hi>Subject;</hi> and all this by ſome who
+<pb n="5" facs="tcp:93423:5"/>
+have <hi>profeſt</hi> themſelves <hi>moſt Loyal</hi> and <hi>moſt Dutiful;</hi> like ſome of old, who threw <hi>Stones</hi> at their God <hi>Hermes</hi> when they pre<g ref="char:EOLhyphen"/>tended to <hi>Worſhip</hi> him. Upon Theſe accounts indeed it might not be amiſs for me to ſhew you, what the Laws of God require in this caſe, and how Religion and Alle<g ref="char:EOLhyphen"/>giance, the Fear of the Lord and of the King, go hand in hand. But becauſe this would take up all the time I have to ſpare, and a great deal <hi>more,</hi> for that Reaſon (and for that Reaſon <hi>only</hi>) I ſhall <hi>Poſtpone</hi> this conſideration, and take notice of it to<g ref="char:EOLhyphen"/>wards the <hi>Cloſe</hi> of this Diſcourſe, and proceed to treat <hi>immediately</hi> and <hi>chiefly</hi> of.</p>
+            <p>2. The other part of the Text, the <hi>Ne<g ref="char:EOLhyphen"/>gative</hi> Precept, in the Latter words; that we have nothing to do with Them, who when things are well, under pretence of <hi>Mending</hi> would fain <hi>Marr</hi> all, and alter every thing, whether it be Religion, or Laws, or Government, or whatſoever ly<g ref="char:EOLhyphen"/>eth in their way, as an Hinderance to their baſe <hi>Deſigns; Meddle not with them that are given to Change.</hi>
+            </p>
+            <p>
+               <pb n="6" facs="tcp:93423:6"/>About the genuine Meaning of <hi>Solomon</hi> in this place, there is ſome difference be<g ref="char:EOLhyphen"/>tween Expoſitors, though moſt of them do render it much according as 'tis ren<g ref="char:EOLhyphen"/>dred in our Tranſlation. And I humbly conceive, that the beſt way of finding out the Full meaning of that Wiſe King in this place is, to obſerve well the <hi>ſtate</hi> of thoſe times wherein <hi>David</hi> and <hi>He</hi> ſucceſſively reigned over <hi>Iſrael.</hi> And if we carry our Eye upon ſome Occurrences in thoſe times, upon which King <hi>Solomon</hi> in all likelihood doth Reflect here, it will appear, that though One Interpretation may be <hi>Prefe<g ref="char:EOLhyphen"/>rable</hi> to another, yet All Interpretations may be ſo Conſiſtent, as to deſerve a <hi>ſhare</hi> in our Meditations.</p>
+            <p>1. Firſt then, ſome Learned Criticks render it Thus, <hi>Ne commiſcearis cum Iteran<g ref="char:EOLhyphen"/>tibus</hi>
+               <note place="margin">See the Large Criticks.</note> 
+               <hi>iniquitates ſuas;</hi> Meddle not with them that act their Iniquities over <hi>again,</hi> them that are Diſobedient and Diſloyal <hi>afreſh;</hi> them that <hi>Repeat</hi> their <hi>Old</hi> Sins a<g ref="char:EOLhyphen"/>gainſt the King and his Regalities; them that are for a <hi>Change,</hi> but not of their own <hi>Principles</hi> and <hi>Courſes;</hi> them that
+<pb n="7" facs="tcp:93423:6"/>
+would fain change the <hi>ſtate</hi> of <hi>Affairs,</hi> but will no more change their own <hi>Minds,</hi> than <hi>the Leopard changeth his Spots, or the Ethiopian his Skin,</hi> as the expreſſion is, <hi>Jer.</hi> 13. 23.</p>
+            <p>Now if <hi>This</hi> Interpretation carries it, we may conceive ſome <hi>Intimation</hi> to be given us here, that there was a ſort of evil men in <hi>Solomon</hi>'s days, who had born his good Father and Him an inveterate Grudge, which for fear of the <hi>Sword</hi> in the King's hand, they <hi>Smothered</hi> and kept <hi>Secret</hi> for a <hi>while;</hi> but when opportunity began to <hi>Smile,</hi> and the Waters were like to be <hi>Troubled,</hi> and the Peace of the Kingdom was in ſome Danger, then they ſhewed the World, that the King's <hi>Kindneſs</hi> and <hi>Mercy</hi> had not Reclaimed nor wrought any <hi>Re<g ref="char:EOLhyphen"/>pentance</hi> in them, but they were the very <hi>Same</hi> men ſtill, and as ready as ever to ſtrike at the Government, and were only <hi>Emboldned</hi> by <hi>Indulgence,</hi> and acted ſo, as if Clemency, which is reputed a <hi>Vertue</hi> in every Prince, had been a kind of Hurtful <hi>Vice</hi> in the King of <hi>Iſrael.</hi>
+            </p>
+            <p>I cannot be Poſitive, that this was the
+<pb n="8" facs="tcp:93423:7"/>
+               <hi>Direct</hi> meaning of <hi>Solomon</hi> in my<g ref="char:punc">▪</g> Text; and yet out of reſpect to the Judgment of thoſe who have given us their Senſe to this purpoſe, I am loth to <hi>Loſe</hi> this Interpre<g ref="char:EOLhyphen"/>tation, or <hi>ſlightly</hi> to paſs it by. For if we go back as far as the days of <hi>Solo<g ref="char:EOLhyphen"/>mon,</hi> we may ſee that by what he had found by his own woful <hi>Experience,</hi> He had great Reaſon to Caution all the World for the future, to have nothing to do with thoſe <hi>Intractable</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>ngrateful men,</hi> who <hi>Repent</hi> not of their Diſloyalty to God and the King, but <hi>perſiſt</hi> and <hi>go on</hi> in their Wickedneſs, fond of the <hi>Same Principles,</hi> Longing for the <hi>Same</hi> Opportunities, Han<g ref="char:EOLhyphen"/>kering after the <hi>Same</hi> Succeſſes, and tread<g ref="char:EOLhyphen"/>ing in the <hi>Same</hi> Steps, which they trod in <hi>Before.</hi>
+            </p>
+            <p>If we look into the Second Book of <hi>Samuel,</hi> and the Firſt Book of the <hi>Kings,</hi> wherein the End of <hi>David</hi>'s Reign and All <hi>Solomon</hi>'s is contained, we ſhall find, that the whole Houſe of <hi>Saul</hi> (a very few ex<g ref="char:EOLhyphen"/>cepted) did bear an Inveterate Hatred a<g ref="char:EOLhyphen"/>gainſt the Houſe of <hi>David</hi> for the ſake of the Crown. For <hi>Saul</hi> had been a <hi>Protector</hi>
+               <pb n="9" facs="tcp:93423:7"/>
+of <hi>Iſrael,</hi> but a very Wicked one; and his Family and Friends were deeply galled at the Heart, when they conſidered how the Scepter was departed out of their hands, and they were Caſhier'd the Court, and had no ſhare in the Government. This was ſuch a Trouble and Vexation to <hi>Saul</hi>'s <hi>Adhe<g ref="char:EOLhyphen"/>rents,</hi> that though <hi>David</hi> had ſpared their Lives, and given them the quiet Poſſeſſion of their Lands, and by many Acts of Grace had endeavoured to make Himſelf and his Government <hi>Eaſie</hi> to them all; yet the moſt Princely favours could not Oblige nor Cure them of their Venom; but when <hi>Abſalom</hi>'s Diſturbance hapned, they diſco<g ref="char:EOLhyphen"/>vered the Old Sore that had been Wrank<g ref="char:EOLhyphen"/>ling ſo long, and Laboured to be Reveng'd for the loſs of the Throne, and to Recover it if it were poſſible. What was that act of <hi>Shimei</hi>'s but an Expreſſion of the moſt in<g ref="char:EOLhyphen"/>curable Malice? in 2 <hi>Sam.</hi> 16. For when the King was now flying out of the Land, and was in his greateſt Diſtreſs, to add Affliction to Miſery, <hi>Shimei Curſed him, and caſt Stones at him, as a Bloudy man,</hi> as an Arbitrary, Ty<g ref="char:EOLhyphen"/>rannical and Cruel Prince. And do but ob<g ref="char:EOLhyphen"/>ſerve
+<pb n="10" facs="tcp:93423:8"/>
+the after-carriage of this Wretch; up<g ref="char:EOLhyphen"/>on the King's <hi>Reſtauration</hi> he throws him<g ref="char:EOLhyphen"/>ſelf at the King's feet, and obtains his Par<g ref="char:EOLhyphen"/>don, 2 <hi>Sam.</hi> 19. And who would not have thought that <hi>Shimei</hi> was a Convert? But yet, when <hi>Solomon</hi> was ſetled in the Throne, this ſame <hi>Shimei</hi> makes <hi>light</hi> of the King's Commands; and as he <hi>Hated</hi> the Father, ſo he <hi>Diſobeyed</hi> the Son, inſomuch that the King found there was no way left him but to put him to death, 1 <hi>Kin.</hi> 2. This was one of thoſe Many (whom I cannot ſtay to in<g ref="char:EOLhyphen"/>ſtance in) that did. <hi>Iterare iniquitates ſuas</hi>—like <hi>
+                  <g ref="char:V">Ʋ</g>ngrateful</hi> perſons act over their Wic<g ref="char:EOLhyphen"/>kedneſs <hi>again,</hi> and ſhewed the King what he was to look for at their hands, when Strength and Opportunity ſhould ſuit to their Minds, and favour their Intentions.</p>
+            <p>Obſerve, I pray, that I give you only an <hi>Hiſtorical</hi> Account of things out of the Scriptures; it being my buſineſs to ſhew what <hi>Reaſon</hi> ſome Expoſitors have to un<g ref="char:EOLhyphen"/>derſtand my Text of Such, as in ſpight of all Clemency and Favour are ever and anon expreſſing <hi>Freſh</hi> acts of Diſloyalty, and be<g ref="char:EOLhyphen"/>tray the Dear Love they have of their <hi>Old</hi>
+               <pb n="11" facs="tcp:93423:8"/>
+Sins: And withall, that You may ſee that if <hi>Solomon</hi> did <hi>not</hi> mean Such here in my Text, yet he had <hi>Reaſon</hi> enough to mean them, and to give Warning, as to all <hi>Wiſe Kings</hi> to <hi>Beware</hi> of Such, ſo to all good <hi>People</hi> and Sons of <hi>Wiſdom</hi> to beware of <hi>Medling</hi> with Such, as will not be held <hi>Sure</hi> by any the <hi>Strongeſt</hi> cords of <hi>Love,</hi> nor pre<g ref="char:EOLhyphen"/>vailed with by any the <hi>Greateſt</hi> acts of <hi>Kind<g ref="char:EOLhyphen"/>neſs,</hi> to change the baſe Temper and Diſpo<g ref="char:EOLhyphen"/>ſition of their Hearts (though That be the thing which needeth the greateſt Change of all) but are ſo perfectly ſet upon Unduti<g ref="char:EOLhyphen"/>fulneſs and Diſloyalty to the Crown, that though they <hi>Diſſemble</hi> their Purpoſes for a Time, yet when a fairer Opportunity ſhall offer it ſelf, will <hi>Iterare iniquitates ſuas</hi>—Sin over Former Sins, and do as Before, violate Promiſes, break Oaths, revile Dig<g ref="char:EOLhyphen"/>nities, pull at the Eſtabliſht Government, and change Loyalty for Faction, a good Conſcience for Filthy Lucre, Order for Confuſion, and an Happy Peace for Un<g ref="char:EOLhyphen"/>certainties, and for Iſſues which they themſelves cannot Foreſee, nor are able to tell what times of Confuſion will bring forth: <hi>My Son, fear thou the Lord and the
+<pb n="12" facs="tcp:93423:9"/>
+King,</hi> and take an eſpecial care that thou meddle not with Such.</p>
+            <p>2. But then, Secondly, other Expoſitors do not <hi>Reſtrain</hi> the ſenſe of the Text ſo, as to underſtand it <hi>only</hi> of <hi>This</hi> ſort of men whoſe <hi>Old</hi> Scores are ſtill upon the File, but interpret it in General and Indifferent<g ref="char:EOLhyphen"/>ly of All that are given to Change, though ſome of them for a conſiderable time may have kept <hi>touch</hi> with the Government. Meddle not, <hi>cum mutantibus,</hi> with them that Change their good Principles. <hi>Cum di<g ref="char:EOLhyphen"/>verſum à praeceptis Dei &amp; Regis facientibus,</hi> with them that act otherwiſe than God's and the King's Commands do require. <hi>Cum aliter agentibus,</hi> with them that <hi>Warp</hi> from their Obedience, and take a <hi>different</hi> courſe from what they did, when the fear of God, or of the King, or of Both, kept them in Order. <hi>Cum variis,</hi> with them that are Un<g ref="char:EOLhyphen"/>ſteddy and Inconſiſtent with themſelves, that obſerve the Pulſe of the <hi>Times,</hi> that ſhift and move according as the <hi>Weather</hi> ſhifts its point, like <hi>things</hi> that turn with the Wind. <hi>Cum declinantibus &amp; deficienti<g ref="char:EOLhyphen"/>bus,</hi> with them that <hi>Start aſide</hi> out of the
+<pb n="13" facs="tcp:93423:9"/>
+Right path, that <hi>Shrink</hi> from their Duty, that ſhake off the Yoke of due Subjection, that make a Party to Trouble <hi>Iſrael,</hi> that Raiſe or Encourage Diſturbances, and make a Defection from their Lawful King or his Government. Thus ſeveral Divines have taken ſeveral ways of expreſſing their thoughts upon this place of <hi>Solomon,</hi> but the Senſe of them all is in a manner to the ſame effect, <hi>viz.</hi> that men ſhould be Quiet and Dutiful, and Contented with their Lot when things are well and in their right Cha<g ref="char:EOLhyphen"/>nel, and not abet the practices of thoſe who cannot be eaſie till the Mire be ſtirred, and the Wheel be turned upſide down.</p>
+            <p>To ſtop the mouth of <hi>Malice,</hi> I hope you note ſtill, that I am endeavouring only to find out King <hi>Solomon</hi>'s <hi>meaning;</hi> and <hi>that</hi> being cleared, it may not be amiſs for us to enquire a little into thoſe <hi>Reaſons</hi> which <hi>Solomon</hi> grounded this his Excellent Advice upon.</p>
+            <p>Now every man that hath Eyes may ſee, that the Changes here ſpoken of are always attended with a Retinue of the moſt Miſ<g ref="char:EOLhyphen"/>chievous <hi>Concomitants</hi> and <hi>Effects,</hi> as War, Bloudſhed, Confuſion, Rapine, the Subver<g ref="char:EOLhyphen"/>ſion
+<pb n="14" facs="tcp:93423:10"/>
+of Laws, the Ruin of Families, the De<g ref="char:EOLhyphen"/>ſtruction of the whole Kingdom, and with ſuch an Army of intolerable Miſeries, that perhaps a Fickle people can hardly groan under any Plague that is Greater and Hea<g ref="char:EOLhyphen"/>vier to them than their <hi>own</hi> Deſires, or be Curſed with a greater Curſe than their own <hi>Option.</hi>
+            </p>
+            <p>And when all is done, a well-ſetled Na<g ref="char:EOLhyphen"/>tion never maketh an Exchange but for the <hi>Worſe;</hi> like Weak people that are Cullied into a Willingneſs to change their <hi>Old</hi> and <hi>Try'd</hi> Friends, for others whom they get nothing by but <hi>this,</hi> that they Learn at length by their own Coſtly Experience to Repent of a <hi>Fooliſh</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>nfortunate</hi> bargain.</p>
+            <p>But beſides the conſideration of theſe E<g ref="char:EOLhyphen"/>vils which are the <hi>Effects</hi> of Innovation, King <hi>Solomon,</hi> 'tis likely, did now bethink himſelf of thoſe <hi>Cauſes</hi> which he found have given birth to an Innovating Humour in <hi>His</hi> time; and ſo from his own Obſerva<g ref="char:EOLhyphen"/>tions he might charge us to be very care<g ref="char:EOLhyphen"/>ful how we Truſt, or <hi>Meddle with thoſe that are given to Change.</hi>
+            </p>
+            <p>'Tis Rare that any Change of Governors or Government is attempted, but under
+<pb n="15" facs="tcp:93423:10"/>
+ſome cleanly <hi>Diſguiſe,</hi> and popular <hi>Pretenſe,</hi> or other. When Monarchy was deſtroyed by the <hi>Greeks</hi> and <hi>Romans,</hi> the Peoples <hi>Li<g ref="char:EOLhyphen"/>berties</hi> was the <hi>Pretenſe.</hi> And when the ſame thing was acted here among <hi>
+                  <g ref="char:V">Ʋ</g>s, Liberty</hi> and <hi>Property,</hi> and <hi>Religion</hi> too was the <hi>Cloak:</hi> And indeed as Change of Govern<g ref="char:EOLhyphen"/>ment was never yet introduced in <hi>Any</hi> Na<g ref="char:EOLhyphen"/>tion, but ſome Specious <hi>Artifice</hi> was a <hi>Pre<g ref="char:EOLhyphen"/>face</hi> to the <hi>Introduction.</hi> Popular States have been erected by the Popular Tricks of men, who have in all Ages <hi>Abuſed</hi> the Undiſcer<g ref="char:EOLhyphen"/>ning and Unthinking Vulgar, and have em<g ref="char:EOLhyphen"/>ployed the Weakneſs, Paſſions, and Hands of the Populace as Inſtruments to Concur with the Pretenſions of the <hi>Ringleaders,</hi> who had nothing all the time, but Love of Em<g ref="char:EOLhyphen"/>pire, or ſome ſuch Wickedneſs at the bot<g ref="char:EOLhyphen"/>tom. <hi>There is no new thing under the Sun,</hi> ſaith <hi>Solomon, Eccles.</hi> 1. 9. For even <hi>This</hi> was an <hi>Old</hi> Artifice in the days of his Father, as any man may ſee, that will but conſider the Hiſtory of thoſe Times: And thus it was,</p>
+            <p>Three very conſiderable Diſturbances there were which afforded Trouble unto King <hi>David,</hi> and which were like to have
+<pb n="16" facs="tcp:93423:11"/>
+cauſed great Alterations in the Kingdom. The Firſt was raiſed by <hi>Abſalom, 2 Sam.</hi> 15. The Second by <hi>Sheba, 2 Sam.</hi> 20. And the Third (which hapned in <hi>David</hi>'s Old Age) was begun by <hi>another</hi> graceleſs Son of His, <hi>Adonijah</hi> by Name, 1 <hi>Kings</hi> 1. Now, what<g ref="char:EOLhyphen"/>ever theſe men Pretended as a Cloak for their Rebellion, it was nothing but an Evil Deſign that was <hi>under</hi> the Mantle; and the Reaſons on which they acted were Unjuſti<g ref="char:EOLhyphen"/>fiable and Baſe, as well in the <hi>Heads</hi> of the Parties, as in others who were <hi>Complices</hi> in the Aſſociation; which Conſideration ſer<g ref="char:EOLhyphen"/>veth much to clear up the Senſe of <hi>Solomon</hi> in my Text, and (by Arguments drawn from the Experience he had of his Father's days) to render this his Advice <hi>Juſt</hi> and <hi>Rational,</hi> that we <hi>meddle not with them that are given to Change.</hi>
+            </p>
+            <p>For, Firſt, the Reaſon of <hi>Abſalom</hi>'s Con<g ref="char:EOLhyphen"/>ſpiracy was <hi>Ambition.</hi> Indeed <hi>other</hi> Sins were the <hi>Concomitants</hi> of his Treaſon; as 1 His <hi>Ingratitude</hi> (which is always <hi>one</hi> of the Re<g ref="char:EOLhyphen"/>bels Sins.) 2. His <hi>Aſperſing</hi> of his Father's Go<g ref="char:EOLhyphen"/>vernment, as if men had not Juſtice done them; <hi>O that I were made Judg in Iſrael,</hi> &amp;c. ſaid he, 2 <hi>Sam.</hi> 15.</p>
+            <p>
+               <pb n="17" facs="tcp:93423:11"/>3. His <hi>Hipocriſie</hi> For to accompliſh his wic<g ref="char:EOLhyphen"/>ked ends he pretends Religion, and deceives People with an Appearance of ſingular <hi>San<g ref="char:EOLhyphen"/>ctity.</hi> When he deſigned to ſet up his Stan<g ref="char:EOLhyphen"/>dard and to blow the Trumpet in <hi>Hebron,</hi> he deſired leave to go thither under colour of paying a <hi>Vow,</hi> to make good a Sacred Pro<g ref="char:EOLhyphen"/>miſe, an <hi>Holy Covenant</hi> that he had made unto God. Rebellion was the <hi>Deſign,</hi> and the Free exerciſe of his Religion, a little <hi>Li<g ref="char:EOLhyphen"/>berty of Conſcience</hi> was the <hi>Mask;</hi> and no ſooner had the King granted his Humble Petition, but an <hi>Inſurrection</hi> was up, and the noiſe of <hi>Trumpets</hi> was in his Ears. Here was a whole <hi>Complication</hi> of divers abominable Crimes; but <hi>Ambition</hi> was the <hi>Mother-ſin</hi> that brought forth the reſt. 'Twas <hi>This</hi> that made him Ungrateful; and his <hi>Defaming</hi> of the Government and ſeeming Zeal were the common Arts which Mutineers and Traitors ordinarily have uſed, only to ſerve the In<g ref="char:EOLhyphen"/>tereſt of Proud, Factious, and Ungovernable Spirits.</p>
+            <p>2. And what was it, but the like <hi>Ambitious</hi> Emulation in <hi>Adonijah,</hi> that made <hi>Him</hi> alſo to endeavour a change, the King his Fathe
+<pb n="18" facs="tcp:93423:12"/>
+being yet alive? Dominion and Govern<g ref="char:EOLhyphen"/>ment was the thing, which he had ſuch a Licoriſh deſire after; and rather than miſs of that he was reſolved to hurle the whole King<g ref="char:EOLhyphen"/>dom into confuſion, and venture Gods ever<g ref="char:EOLhyphen"/>laſting diſpleaſure.</p>
+            <p>3. But <hi>Sheba</hi>'s reaſons were of ſomewhat a different Nature, when <hi>he</hi> indeavoured a change and gave that formidable Alarm, <hi>Every man to his Tents, O</hi> Iſrael, 2 <hi>Sam.</hi> 20. upon the Kings <hi>Reſtauration,</hi> the men of <hi>Iſrael</hi> ſaid, we have <hi>Ten</hi> parts in <hi>David;</hi> and be<g ref="char:EOLhyphen"/>cauſe they thought themſelves <hi>ſlighted,</hi> preſent<g ref="char:EOLhyphen"/>ly <hi>Sheba</hi> and his Aſſociates <hi>Rebell,</hi> uſing this <hi>up<g ref="char:EOLhyphen"/>braiding</hi> language, theſe expreſſions of <hi>Diſcon<g ref="char:EOLhyphen"/>tent, We have no part in</hi> David, <hi>neither have we in<g ref="char:EOLhyphen"/>heritance in the Son of</hi> Jeſſe. Though theſe men had been <hi>unfaithful</hi> to <hi>David,</hi> and had ſet up an <hi>
+                  <g ref="char:V">Ʋ</g>ſurper</hi> to rule over them, though the men of <hi>Judah</hi> had the greateſt honour and hand in bringing their Baniſh't King home, and the men of <hi>Iſrael</hi> had made his Reſtauration matter of ſome <hi>Debate</hi> (whe<g ref="char:EOLhyphen"/>ther it was for fear of <hi>ſmarting</hi> for their Diſ<g ref="char:EOLhyphen"/>loyalty, or that they would <hi>Tye</hi> the King to <hi>Conditions,</hi> or the like;) and though they com<g ref="char:EOLhyphen"/>plyed
+<pb n="19" facs="tcp:93423:12"/>
+upon ſome <hi>Conſtraint,</hi> and upon a kind of <hi>moral neceſſity:</hi> Yet nevertheleſs they expect<g ref="char:EOLhyphen"/>ed to <hi>fare well,</hi> by their perfidiouſneſs, and nothing would ſatisfie them unleſs they <hi>Ap<g ref="char:EOLhyphen"/>propriated</hi> the King to <hi>themſelves</hi> and the Kings muſt be their <hi>own</hi> at laſt. And becauſe they could not be the <hi>only</hi> men at Court, to go away with all the <hi>Honours</hi> and <hi>Rewards,</hi> to be at <hi>Davids</hi> Right hand, to <hi>Influence</hi> and <hi>Rule</hi> him at their pleaſure; therefore they are <hi>Malecontents</hi> preſently, and ſtudy to be <hi>Re<g ref="char:EOLhyphen"/>venged</hi> for their diſappointments, though Thouſands of poor Souls ſuffer in the Quar<g ref="char:EOLhyphen"/>rel, and though the whole Kingdom be turn<g ref="char:EOLhyphen"/>ed into a Field of Blood.</p>
+            <p>Still I do but do the part of an Hiſtorian, to relate matter of <hi>Fact,</hi> and to ſhew you what thoſe Real (but Baſe) Motives and Induce<g ref="char:EOLhyphen"/>ments were, upon which King <hi>Solomon</hi> re<g ref="char:EOLhyphen"/>membred that theſe Factious men Acted in the Reign of his Father. They would have thrown every thing off the Hooks, <hi>pretend<g ref="char:EOLhyphen"/>ing</hi> this or that to <hi>deceive</hi> the unskilful <hi>Vulgar,</hi> but deſigning only to ſatisfie an <hi>Ambitious</hi> and wicked Appetite, or to be <hi>Even</hi> with the Go<g ref="char:EOLhyphen"/>vernment for Croſſing their unreaſonable
+<pb n="20" facs="tcp:93423:13"/>
+Humors; ſo that <hi>Solomon</hi> had great Reaſon to warn the World, to miſtruſt ſuch Facti<g ref="char:EOLhyphen"/>ous pretenders, and not to meddle with them that are given to change.</p>
+            <p>Let us now go on a little <hi>further,</hi> from the grand <hi>Conſpirators</hi> to their <hi>Confederates,</hi> ſuch as entred into a <hi>Covenant</hi> and <hi>Aſſociation</hi> with them. And were not the Reaſons upon which <hi>Theſe</hi> acted too, ſuch as <hi>Good</hi> men <hi>ought</hi> not, and Wiſe men <hi>need</hi> not be ſwayed by? Look a little into the Hiſtory of thoſe times again, and you may obſerve that theſe Confederates were notorious, either for a Fooliſh <hi>Creduli<g ref="char:EOLhyphen"/>ty,</hi> or for <hi>Guilt</hi> of Conſcience, or for <hi>Love</hi> of Innovation, or for deep <hi>Malice,</hi> or for a ſtrange kind of <hi>Levity</hi> and <hi>Inconſtancy</hi> of mind.</p>
+            <p>1. Some of them were <hi>Fooliſhly Credulous.</hi> For the Text tells us expreſly, that there went with <hi>Abſalom two hundred men out of</hi> Jeruſalem, <hi>and that they went in their Simplicity, and knew not any thing. 2. Sam.</hi> 15. 11. They did not dream or Imagine any other, but that he went to <hi>Hebron</hi> to perform his <hi>Vows</hi> only, and that 'twas nothing but <hi>Religion</hi> and point of <hi>Conſcience</hi> that led him thither, not miſtruſt<g ref="char:EOLhyphen"/>ing that his deſigns were ſo Black, as to put
+<pb n="21" facs="tcp:93423:13"/>
+himſelf into Arms againſt God's anointed and his own Father. This I ſay was a <hi>Fooliſh</hi> Credulity, becauſe his Popular Carriage and Inſinuations againſt the Government were e<g ref="char:EOLhyphen"/>nough to make diſcerning men very Suſpiti<g ref="char:EOLhyphen"/>ous, that he had an Aſpiring and Diſaffected mind; and ſo, that there might be ſome <hi>Fur<g ref="char:EOLhyphen"/>ther</hi> end of his journey, than what was pre<g ref="char:EOLhyphen"/>tended: Tho we may yield, that the making of Piety a Cloak for wickedneſs was not ſuch a <hi>Common</hi> and <hi>Proſperous</hi> trade in thoſe days, as it hath been in theſe <hi>latter</hi> times, ſince the Art and Trade hath been ſo improved.</p>
+            <p>2. Now theſe had <hi>Guilt</hi> upon their <hi>Conſci<g ref="char:EOLhyphen"/>ences,</hi> which made them <hi>Pertinacious.</hi> For ha<g ref="char:EOLhyphen"/>ving been once obnoxious, they thought there was no way to <hi>Retreat,</hi> no Remedy but to venture all their Fortunes in the Cauſe they had undertaken; like ill men, that having once adventur'd to draw the Sword againſt their Lawful Prince, are led on further by the Devil to think it Neceſſary, Firſt to throw the Scabbard <hi>away,</hi> and then (if they can) to embrue the Weapon in their Princes <hi>Blood.</hi>
+            </p>
+            <p>3. And then, as to the <hi>Generality</hi> of <hi>Abſo<g ref="char:EOLhyphen"/>loms</hi> Confederates, they were men that Lo<g ref="char:EOLhyphen"/>ved
+<pb n="22" facs="tcp:93423:14"/>
+and Delighted in Faction, in run as it were in the Blood of the men of <hi>Iſrael,</hi> eſpecially in the Vulgar and baſer ſort, which <hi>common<g ref="char:EOLhyphen"/>ly</hi> are deſirous to break a State into pieces, not that they can find any conſiderable <hi>fault</hi> in it, but becauſe Plunder and Pillage, and Se<g ref="char:EOLhyphen"/>queſtration is ſweet, and (as they think) the moſt <hi>Probable</hi> and <hi>Speedy</hi> courſe to <hi>make,</hi> or to <hi>mend</hi> their Fortunes.</p>
+            <p>4. But the Reaſon of <hi>Ahitophels</hi> Confedera<g ref="char:EOLhyphen"/>cy was of ſomewhat a <hi>Higher</hi> Nature; for it ſeems to have been perfect <hi>Malice</hi> and ſpight againſt the Kings <hi>Perſon.</hi> For though he had been one of <hi>Davids Counſellors</hi> (and a <hi>Shrewd</hi> man too, eſpecially at <hi>Miſchief</hi>) yet having joyned in the Confederacy, he of<g ref="char:EOLhyphen"/>fered to go himſelf after <hi>David,</hi> deſirous to kill none but <hi>David</hi> (who was the moſt <hi>ſa<g ref="char:EOLhyphen"/>cred</hi> perſon of <hi>all;) The people that are with him ſhall Flee, and I will ſmite the King only,</hi> ſaid <hi>Ahitophel, 2 Sam.</hi> 17. 2. Nay ſo <hi>maliciouſly</hi> was he bent upon it, that when it was not yielded, that he ſhould go into the <hi>Field</hi> to kill the <hi>King,</hi> he went to his own <hi>Houſe</hi> and hanged himſelf: a ſin which (if I miſtake not) there are but two that we read of in Scripture,
+<pb n="23" facs="tcp:93423:14"/>
+who were permitted by the Juſt Judg<g ref="char:EOLhyphen"/>ment of God to commit, and they were both of them <hi>Traytors;</hi> this <hi>Ahitophel</hi> that betray<g ref="char:EOLhyphen"/>ed his <hi>King,</hi> and <hi>Judas</hi> that betray'd the <hi>Son</hi> of <hi>God.</hi>
+            </p>
+            <p>5. Beſides theſe <hi>already</hi> mentioned, ſome in <hi>Salomons</hi> times were given to change out of a ſtrange kind of <hi>Levity</hi> and <hi>Inconſtancy</hi> of mind, and therefore ſome Expoſitors render the place thus, meddle not, <hi>cum inconſtantibus,</hi> with men that are <hi>Fickle</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>nſteddy</hi> in their Loyalty. Would we not think it <hi>Strange,</hi> ſhould men who have ſhewed their Fi<g ref="char:EOLhyphen"/>delity all along; men who have Acted, Fought, Suffer'd, and ventur'd their very <hi>Lives</hi> for the ſake of Majeſty; ſhould ſuch, I ſay, ſtart <hi>aſide,</hi> and ſuffer themſelves to be <hi>wheadled</hi> into Faction at <hi>laſt?</hi> Truly we might won<g ref="char:EOLhyphen"/>der at it the <hi>Leſs,</hi> when we conſider that it was the caſe of ſeveral men in the Reign of <hi>David,</hi> and eſpecially <hi>Two</hi> very <hi>Eminent</hi> per<g ref="char:EOLhyphen"/>ſons, <hi>Abiathar</hi> the <hi>Prieſt,</hi> and <hi>Joab</hi> that brave <hi>Commander;</hi> the <hi>Former</hi> had been <hi>Davids</hi> ſe<g ref="char:EOLhyphen"/>cret and ſure Friend, and the <hi>Latter</hi> had not turned after <hi>Abſolom:</hi> Both of them had been Faithful <hi>hitherto;</hi> but when <hi>Adonijah</hi> uſur<g ref="char:EOLhyphen"/>ped
+<pb n="24" facs="tcp:93423:15"/>
+the Kingdom, both of them were con<g ref="char:EOLhyphen"/>cerned in <hi>that</hi> Plot the <hi>Prieſt</hi> turned an <hi>Apo<g ref="char:EOLhyphen"/>ſtate,</hi> and the <hi>General</hi> a <hi>Renegado;</hi> upon what Provocations, I do not know, nor can I ga<g ref="char:EOLhyphen"/>ther any Reaſon thereof, unleſs it be that I now have mentioned, a ſtrange <hi>Inconſtancy</hi> of Spirit in men, who in <hi>Davids</hi> old Age thought it their beſt cunning, to take up the <hi>Perſian</hi> cuſtom, and worſhip the <hi>Riſing</hi> Sun.</p>
+            <p>By this time I hope you clearly ſee the Senſe of <hi>Salomon;</hi> and what juſt <hi>Grounds</hi> that wiſe Prince had to Caution us not to Meddle with thoſe that are given to change; it be<g ref="char:EOLhyphen"/>ing poſſible, that as it was in <hi>His</hi> time, ſo it might be in <hi>after-ages,</hi> and evil men might be troubleſome to Government, pre<g ref="char:EOLhyphen"/>tending, perhaps, fairly to cheat the Po<g ref="char:EOLhyphen"/>pulace, when in truth 'tis either <hi>Ambition</hi> that is at the bottom of their actions, or <hi>Diſcon<g ref="char:EOLhyphen"/>tent,</hi> or a ſenſe of <hi>Guilt,</hi> or <hi>Malice,</hi> or an unaccountable kind of <hi>Fickleneſs,</hi> or ſuch other provocations, which render them<g ref="char:EOLhyphen"/>ſelves <hi>Criminal,</hi> and the Concurrence of their Complices, <hi>Raſh</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>nadviſed.</hi>
+            </p>
+            <p>
+               <pb n="25" facs="tcp:93423:15"/>If it be expected now, that by way of Ap<g ref="char:EOLhyphen"/>plication I ſhould reflect upon ſome in <hi>theſe</hi> times, who are preſumed to be much of the Temper and Spirit of thoſe in <hi>Solomons</hi> days, truly I ſhall not anſwer any ſuch expecta<g ref="char:EOLhyphen"/>tions: it is beſides my purpoſe, therefore I ſhall ſo far obſerve my Text my ſelf, as not to meddle with ſuch Men, no not in <hi>this</hi> Senſe.</p>
+            <p>My buſineſs is, Beloved, to Miniſter ſome hints unto you, that in this giddy and ſtag<g ref="char:EOLhyphen"/>gering Age you may not be <hi>abuſed</hi> and <hi>impo<g ref="char:EOLhyphen"/>ſed</hi> on; but may learn to diſtinguiſh between the <hi>Saint</hi> that pretends <hi>Religion,</hi> and the <hi>In<g ref="char:EOLhyphen"/>cendiary</hi> that aims at <hi>Government,</hi> and would fain turn the State of things with the Heels <hi>uppermoſt,</hi> and bring us to that which the old <hi>Romans</hi> obſerved in the Feaſts of <hi>Saturn,</hi> when the <hi>Maſter</hi> waited at Table on the <hi>Ser<g ref="char:EOLhyphen"/>vant.</hi>
+               <note place="margin">
+                  <hi>Macrob. Saturn. lib.</hi> 1.</note>
+            </p>
+            <p>Nothing can be more uncertain, than what the end of things will be, when once a change is begun, this onely we are ſure of, that in ſuch a caſe we ſhould be very miſera<g ref="char:EOLhyphen"/>ble; it being impoſſible to <hi>Force</hi> a Kingdom into a <hi>New Model,</hi> but by <hi>Forcing</hi> it into <hi>pieces</hi>
+               <pb n="26" facs="tcp:93423:16"/>
+firſt; which cannot be done, but by bring<g ref="char:EOLhyphen"/>ing upon it ſuch <hi>Throws, Pangs,</hi> and intole<g ref="char:EOLhyphen"/>rable <hi>Convulſions,</hi> as will indanger the very <hi>Being</hi> of the Body Politick. Of this we ſaw enough in the late Bloudy and Unnatural War; and to ſpeak freely unto you, <hi>My dear Country-Men,</hi> perhaps no Men in the Kingdom have greater reaſon to remember the Calamities of thoſe times, than <hi>we; we</hi> whoſe <hi>Pleaſant</hi> and <hi>Fruitful</hi> Countrey was ſo long expoſed to Haraſſings and Outrage; <hi>we</hi> whoſe Loyal Parents ſuffered to that degree, that many of them had little to leave us at the laſt, but the <hi>Senſe</hi> and the <hi>Smart</hi> of <hi>their</hi> Sufferings; <hi>we,</hi> who at the very minutes of our <hi>Birth</hi> were in danger of being hurried <hi>out</hi> of the world, as <hi>naked</hi> as we came <hi>into</hi> it; <hi>we,</hi> whoſe <hi>Infancy</hi> was ſpent in the midſt of <hi>Arms,</hi> and were trained up, as it were, at the point of the <hi>Spear,</hi> and at the mouth of the <hi>Gun; we,</hi> whoſe Friends feared not to roll in Bloud for the King and the Church ſake, that had the Honour to be <hi>Martyrs</hi> for Loyal<g ref="char:EOLhyphen"/>ty, and made <hi>us</hi> happy in <hi>this</hi> reſpect, that even <hi>we</hi> were <hi>Confeſſors</hi> from the Cradle.</p>
+            <p>And ſhall <hi>we</hi> now, who ought to Inherit
+<pb n="27" facs="tcp:93423:16"/>
+the <hi>Zeal</hi> and Fidelity of thoſe brave Spirits, entail <hi>miſery</hi> upon a <hi>Third</hi> Generation, by being led away our <hi>ſelves</hi> out of the old paths of Righteouſneſs and Peace, by the Popular wiles of ſome, who would quit ſcores with Majeſty for <hi>one</hi> Act of <hi>Oblivion,</hi> by ſtanding in need of <hi>another?</hi> For Gods Love let us beware, that we be not <hi>trick't</hi> out of our Duty and Allegiance, but ſeriouſly conſider, whither thoſe Acts which ſome Beautifeus would have us think to be expreſ<g ref="char:EOLhyphen"/>ſions of <hi>Zeal</hi> for <hi>Religion,</hi> be not rather the Methods of thoſe in <hi>Solomons</hi> time, who were given to change meerly out of <hi>Ambi<g ref="char:EOLhyphen"/>tion,</hi> or <hi>Diſcontent,</hi> or <hi>Malice</hi> and <hi>Revenge,</hi> and the like.</p>
+            <p>In the Reign of King <hi>Henry</hi> the 8th, the<note place="margin">Dr. <hi>Bur<g ref="char:EOLhyphen"/>nets</hi> Hiſt. of Ref. <hi>part 1.</hi> pag. 229.</note> Papiſts in the North raiſed a moſt Formida<g ref="char:EOLhyphen"/>ble Rebellion, which the Rebels (who were fourty thouſand ſtrong) had the Impudence to call <hi>A Pilgrimage of Grace.</hi> 
+               <q>And (ſaith my Author) all that joined to them took an <hi>Oath,</hi> that they entred into this <hi>Pilgri<g ref="char:EOLhyphen"/>mage of Grace</hi> for the Love of God, for the Preſervation of the Kings Perſon and Iſſue, for the Purifying of the Nobility, and for
+<pb n="28" facs="tcp:93423:17"/>
+the driving away all baſe born and ill Coun<g ref="char:EOLhyphen"/>ſellors.</q> Here was High <hi>Treaſon</hi> under a ſpe<g ref="char:EOLhyphen"/>cious <hi>Title;</hi> and an Inſurrection, which of all others then did <hi>moſt</hi> threaten the <hi>King,</hi> the Government, and the ruin of Religion, was ſtiled, forſooth, <hi>A Pilgrimage of Grace,</hi>
+            </p>
+            <p>It is not long ago (not ſo long ago that we ſhould forget it) that <hi>another</hi> Rebellion was raiſed by pretending Proteſtants; and <hi>that</hi> had a <hi>ſpecious</hi> character alſo; for it was the <hi>Old Pilgrimage of Grace</hi> in a <hi>New Edition;</hi> onely the <hi>Title</hi> was changed, and 'twas under the pretenſe of an <hi>Holy League,</hi> a <hi>Bleſſed Co<g ref="char:EOLhyphen"/>venant,</hi> which ſome then had the confidence to compare to <hi>The Covenant of Grace.</hi>
+            </p>
+            <p>And how do we know, but an <hi>Aſſociation of Grace</hi> may come next? But, if after all thoſe palpable cheats which have been put upon the world, we ſuffer our ſelves to be abuſed <hi>again,</hi> eſpecially <hi>we</hi> who have had the happineſs to be born in <hi>the Loyal County of Wilts;</hi> if <hi>we</hi> too be <hi>Sheepiſhly</hi> led away, tru<g ref="char:EOLhyphen"/>ly the world may well ſay, that we were born and bred <hi>vervecum in patria,</hi> among <hi>ſilly</hi> Creatures that are <hi>apt</hi> to go <hi>aſtray;</hi> and we ſhall make our Country famous for <hi>another</hi>
+               <pb n="29" facs="tcp:93423:17"/>
+Wonder I <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, an <hi>innumerable</hi> company of <hi>Block.</hi>
+            </p>
+            <p>To <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Honour of your <hi>Coun<g ref="char:EOLhyphen"/>try,</hi> and to prevent the ruin of a whole <hi>King<g ref="char:EOLhyphen"/>dom,</hi> let me beſeech you to carry my Text in your <hi>Hearts,</hi> and <hi>meddle not with them that are given to change.</hi> And in order hereunto give me leave to recommend theſe three things unto your Practice.</p>
+            <p>1. Firſt, that direction which you find in the Front of this Verſe, the <hi>Fear of the Lord.</hi> Without the true fear of God on the Sub<g ref="char:EOLhyphen"/>jects part, the Kings Throne muſt needs ſtand in a ſlippery place, and an <hi>
+                  <g ref="char:V">Ʋ</g>nſtable</hi> Conditi<g ref="char:EOLhyphen"/>on, and all Reſpects and Duty to him muſt be <hi>Precarious</hi> and <hi>Arbitrary.</hi> He cannot be <hi>Secure</hi> of any but <hi>Their</hi> Loyalty, who dread and Reverence him for <hi>Conſcience</hi> ſake, and for the <hi>Lords</hi> ſake: nor is any <hi>Confidence</hi> to be placed, but in Men who act upon the Right Principles of Religion and Honeſty. Some may regard Majeſty for the <hi>Loaves</hi> at his Ta<g ref="char:EOLhyphen"/>ble, who yet when they have eaten to the Full, may be ready to ſtrike him on the <hi>Face.</hi> And ſome may <hi>Complement</hi> him onely for <hi>want</hi> of <hi>Power</hi> and <hi>Ability</hi> to hurt him. 'Tis
+<pb n="30" facs="tcp:93423:18"/>
+               <hi>Religion</hi> and the <hi>Fear of God</hi> onely, that can <hi>enſure</hi> our Affections and Fidelity to him, that can keep Men <hi>Right</hi> and <hi>Steddy,</hi> eſpeci<g ref="char:EOLhyphen"/>ally in tickliſh and diſtracted times: That's a <hi>ſure</hi> Band, that will <hi>hold,</hi> when all other tyes will prove as weak as <hi>Sampſons</hi> Withs were, when the Philiſtines were upon him. For true Religion teacheth us, <hi>that we ſhall be damned if we reſiſt; that we muſt obey Magiſtrates, and be ſubject not onely for wrath, but for Conſcience ſake; that we muſt ſtudy to be quiet, and to do our own buſineſs; that we muſt give Honour to whom Honour is due,</hi> and that <hi>we muſt not do evil that good may come, but commit our ſelves to God in well-doing.</hi> Theſe are the ſtanding commands of God, and the ſincere keeping of them is a neceſſary <hi>Branch</hi> of that <hi>Fear</hi> which is due unto him, and there could not be ſuch a thing as Treaſon in the world, were theſe commands obſerved; becauſe they carry ſuch an <hi>Awe</hi> over the Spirits of all <hi>go<g ref="char:EOLhyphen"/>vernable</hi> Men, as will keep them from being <hi>Receptive</hi> of thoſe <hi>Dangerous</hi> and <hi>Licentious</hi> Principles, which we find in the <hi>Jeſuites,</hi> and <hi>Leviathans,</hi> and <hi>Republicans</hi> Goſpel.</p>
+            <p>2. Next to the <hi>Fear of God,</hi> the <hi>Fear of the
+<pb n="31" facs="tcp:93423:18"/>
+King</hi> is Coercive of Obedience: <hi>my Son, fear thou the Lord, and the King.</hi> By which is meant, not a <hi>Servile</hi> fear, ſuch a <hi>Baſe</hi> and <hi>Low<g ref="char:EOLhyphen"/>ſpirited</hi> Paſſion, as is in a Slothful and Un<g ref="char:EOLhyphen"/>faithful <hi>Slave,</hi> who ſtands in fear of his Lord not for <hi>Conſcience,</hi> but for <hi>Puniſhment</hi> Sake, and is not ſo much afraid to <hi>do</hi> Evil, as he is to <hi>Suffer</hi> and <hi>Smart</hi> for it. But ſuch a Fear is meant here, as a Tender and Dutiful <hi>Childe</hi> hath of his <hi>Father,</hi> whoſe <hi>Diſpleaſure</hi> he values more than his <hi>Blowe;</hi> ſuch a Fear as is ming<g ref="char:EOLhyphen"/>led with <hi>Affection</hi> and <hi>Love</hi> and <hi>Hearty good Will;</hi> which the Father of our Country hath a <hi>greater</hi> right unto, then our <hi>Natural</hi> Parents. Now, did this <hi>Fear</hi> reign, as it ought to do, in mens <hi>Hearts,</hi> State-<hi>Protenſes</hi> would be as <hi>Rare,</hi> as they are now <hi>Miſchievous.</hi> For <hi>Here</hi> thoſe Monſters <hi>begin,</hi> to <hi>Lower</hi> Majeſty, to render the King <hi>Vile, Contemptible</hi> and <hi>Mean,</hi> and to ſpoil him of his <hi>Prerogative,</hi> to get at his <hi>Head</hi> by <hi>degrees</hi> and <hi>inches; That</hi> being the onely <hi>Popular</hi> way of deſtroying the <hi>Man,</hi> to Strip and diveſt the <hi>King</hi> firſt.</p>
+            <p>3. <hi>Meddle</hi> not with men that are given to change; that is, Avoid their <hi>Company,</hi> have no <hi>Fellowſhip</hi> with them, come not neer
+<pb n="32" facs="tcp:93423:19" rendition="simple:additions"/>
+their <hi>Cabals,</hi> enter not into their <hi>ſecrets.</hi> The reaſon why ſome ſhrink from their <hi>Leialty</hi> is, (as one hath rightly obſerved) <hi>cum defectoribus conſortium,</hi> becauſe they <hi>Herd</hi> and <hi>Mingle</hi> themſelves with thoſe who are <hi>Diſaffected</hi> to their Prince<g ref="char:punc">▪</g> And he inſtanceth in thoſe who joyned in <hi>Abſaloms</hi> Conſpiracy: they had no <hi>ori<g ref="char:EOLhyphen"/>ginal</hi> deſign againſt <hi>David,</hi> no black intentions at the <hi>firſt,</hi> but were <hi>wheadled</hi> and <hi>wiredrawn</hi> into a down-right <hi>Rebellion</hi> by <hi>Aſſoeiating</hi> with deſigning Men. For the <hi>Converſation</hi> of a Rebel is like the <hi>Plague,</hi> it carries <hi>Infection</hi> along with it, and expoſeth a Man to open danger of being Poiſoned with the ſame <hi>Principles,</hi> and of being brought into the ſame Condemnation. For by this means the Devil, draws him into <hi>Engagements,</hi> and gets the <hi>Hank</hi> over him<g ref="char:punc">▪</g> ſo that he, who at firſt was <hi>
+                  <g ref="char:V">Ʋ</g>n<g ref="char:EOLhyphen"/>wary</hi> onely, at laſt becomes<g ref="char:punc">▪</g> wretchedly <hi>Wicked:</hi> upon which account <hi>Solomon</hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Well-meaning</hi> Man this <hi>ſafe</hi> advice, <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> not to <hi>Combine,</hi> not to <hi>Converſe</hi> over familiarly with them that are given to Change.</p>
+            <p>I have no more to add but my earneſt Prayers unto the God of <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> and <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi> that he would endue all our hearts with that <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Wiſdom from above which is Pure and Peaceable; that he would bleſs us with the long continuance of the <hi>beſt</hi> of <hi>Governments,</hi> and the <hi>beſt</hi> of <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>that he would open our eyes to ſee the things <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> be long unto our peace, before they be hid from <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> this world may be ſo ordered by his governance, that we may all lead quiet and peaceable<g ref="char:punc">▪</g> lives in all godlineſs and honeſty,</hi> through Jeſus Chriſt our only <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and Redeemer, to whom with the Fa<g ref="char:EOLhyphen"/>ther, and, <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Spirit be all Honour, Glory and Praiſe.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
